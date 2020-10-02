@@ -1,0 +1,34 @@
+{
+    "name": "yosmy/payment-card-lookup",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "yosmy/mongo": "@dev",
+        "yosmy/http": "@dev",
+        "yosmy/http-cache": "@dev"
+    },
+    "require-dev": {
+        "symsonte/framework": "@dev",
+        "symfony/debug": "~4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\Payment\\Card\\": [
+                "src/abstract",
+                "src/iannuttall"
+            ],
+            "Yosmy\\Payment\\Card\\Play\\": [
+                "play/setup",
+                "play/src/iannuttall"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}

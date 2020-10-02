@@ -1,0 +1,3 @@
+aliases:
+    symsonte.caller: symsonte.ordinary_caller
+    yosmy.payment.card.resolve_lookup: yosmy.payment.card.iannuttall.resolve_lookup

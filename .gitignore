@@ -1,0 +1,5 @@
+/play/var/cache/
+!/play/var/cache/.gitkeep
+/play/var/db/
+!/play/var/db/.gitkeep
+/vendor/
